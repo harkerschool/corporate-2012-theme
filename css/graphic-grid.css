@@ -1,0 +1,83 @@
+/* Graphic Grid */
+.contentElementTD {
+	padding: 0 40px 35px 0;
+	border: none;
+	background: transparent;
+	position: relative;
+	width: 260px;
+}
+
+.contentElementTD:nth-child(3n) {
+	padding-right: 0;
+}
+
+.contentElementTD .contentElementTitle {
+	display: none;
+}
+
+.contentElementTD > div {
+	height: 145px;
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+
+.contentElementTD > div > br {
+	display: none;
+}
+
+.contentElementTD > div .contentElementImage {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+
+	-webkit-transition: top .5s ease-in-out;
+	-moz-transition: top .5s ease-in-out;
+	-o-transition: top .5s ease-in-out;
+	-ms-transition: top .5s ease-in-out;
+	transition: top .5s ease-in-out;
+}
+
+.contentElementTD > div:hover .contentElementImage {
+	top: -145px;
+
+	-webkit-transition: top .5s ease-in-out;
+	-moz-transition: top .5s ease-in-out;
+	-o-transition: top .5s ease-in-out;
+	-ms-transition: top .5s ease-in-out;
+	transition: top .5s ease-in-out;
+}
+
+.contentElementTD > div .contentElementDesc {
+	position: absolute;
+	top: 145px;
+	background: #111;
+	background: rgba( 0, 0, 0, .8);
+	font-size: 11px;
+	color: white;
+	margin: 18px 14px;
+	padding: 9px 10px;
+	height: 90px;
+	border-radius: 2px;
+
+	-webkit-transition: top .5s ease-in-out;
+	-moz-transition: top .5s ease-in-out;
+	-o-transition: top .5s ease-in-out;
+	-ms-transition: top .5s ease-in-out;
+	transition: top .5s ease-in-out;
+}
+
+.contentElementTD div:hover .contentElementDesc {
+	top: 0;
+
+	-webkit-transition: top .5s ease-in-out;
+	-moz-transition: top .5s ease-in-out;
+	-o-transition: top .5s ease-in-out;
+	-ms-transition: top .5s ease-in-out;
+	transition: top .5s ease-in-out;
+}
+
+.contentElementTD > div .contentElementDesc p {
+	margin: 0;
+}

@@ -1,0 +1,82 @@
+/* Icon Grid Default */
+.contentElementTD {
+    padding: 0 40px 1.5em 60px;
+    border: none;
+    background: transparent;
+    width: 200px;
+}
+
+.contentElementTD:nth-child(3n) {
+    padding-right: 0;    
+}
+
+.contentElementTD > div {
+    position: relative;    
+}
+
+.contentElementTD > div > br {
+    display: none;    
+}
+
+.contentElementImage {
+    position: absolute;
+    top: -2.25em;
+    left: -60px;
+    width: 40px;
+}
+
+.contentElementDesc {
+    display: block;
+}
+
+.hasRightbanner #text2, .layout_48.hasRightbanner #rightbanner {
+    margin-top: 1.5em;    
+}
+
+.hasRightbanner #text2 {
+    float: left;
+    width: 560px;
+    margin-right: 40px;
+}
+
+.hasRightbanner #rightbanner {
+    float: left;
+    width: 260px;
+}
+
+
+/* Icon Grid 2 Col */
+.layout_53 .contentElementTD {
+    width: 350px;
+}
+
+.layout_53  .contentElementTD:nth-child(3n) {
+    padding-right: 40px;
+}
+
+.layout_53  .contentElementTD:nth-child(2n) {
+    padding-right: 0;    
+}
+
+
+/* Icon Grid Sidebar */
+.layout_55.hasRightbanner #contentdiv {
+	float: left;
+	width: 560px;
+	margin-right: 40px;
+}
+
+.layout_55.hasRightbanner #text2, .layout_48.hasRightbanner #rightbanner {
+    margin-top: 0;    
+}
+
+.layout_55.hasRightbanner #text2 {
+    float: none;
+    width: auto;
+    margin-right: 0;
+}
+
+.layout_55.hasRightbanner #rightbanner {
+	float: left;
+	width: 260px;	
+}

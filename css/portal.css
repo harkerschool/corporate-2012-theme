@@ -1,0 +1,172 @@
+/* General Portal Styles */
+#leftbanner {
+	border: none;
+	margin: 0;	
+}
+
+#portal_tabs {
+	background: none;
+	padding: 0;
+	border: 0;
+}
+
+#portal_tabs .ui-tabs-nav {
+	background: none;
+	border: none;
+	padding: 0;
+	border-radius: 0;
+	font-family: "franklin-gothic-urw-cond","Arial Narrow Bold","Arial", sans-serif;
+}
+
+#portal_tabs .ui-state-default {
+	border-radius: 0;
+	background: none;
+	padding: 0;
+	border: 0;
+}
+
+#portal_tabs .ui-state-hover, #portal_tabs .ui-state-default, #portal_tabs .ui-state-default > a:hover, #portal_tabs .ui-state-active > a {
+	-webkit-transition: .25s;
+	-moz-transition: .25s;
+	-o-transition: .25s;
+	-ms-transition: .25s;
+	transition: .25s;
+}
+
+#portal_tabs #dock_tab {
+	background: #fff;
+	border-right: 1px solid #e1e1e1;
+	border-left: 3px solid #e1e1e1;
+}
+
+#portal_tabs .ui-state-default > a {
+	padding: 0 15px;
+	white-space: normal;
+	font-size: 1.1667em;
+	line-height: 35px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.tab-controls {
+	line-height: 35px;
+}
+
+#portal_tabs .ui-state-active > a {
+	font-weight: 500;
+}
+
+#portal_tabs .ui-state-active > a:hover { text-decoration: none; }
+
+.portal_column {
+	padding: 0;
+	margin: 0;
+}
+
+.dock_marker {
+	margin: 0 10px 1.5em 0;
+}
+#portal_tabs .ui-tabs-panel {
+	padding: 1.5em 20px;
+}
+
+/* Start Basic Portal */
+
+.layout_54 #portal_tabs .ui-state-default {
+	margin: 0;
+}
+
+.layout_54 #portal_tabs .ui-state-active {
+	background: #fff;
+	border: 1px solid #e1e1e1;
+	border-radius: 2px 2px 0 0;
+}
+
+.layout_54 #portal_tabs .ui-state-default > a {
+	color: #888;
+}
+
+.layout_54 #portal_tabs .ui-state-default > a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+.layout_54 #portal_tabs .ui-state-active > a {
+	color: #000;
+	font-size: 1.5em;
+}
+
+.layout_54 #portal_tabs .ui-tabs-panel {
+	background: #fff;
+	border: 1px solid #e1e1e1;
+	border-radius: 2px;
+}
+
+/* Start Portal w/ Sidebar */
+
+.layout_59 #portal_tabs .ui-tabs-nav {
+	border-bottom: 1px solid #A0A0A0;
+}
+
+.layout_59 #portal_tabs .ui-state-default {
+	margin: 0 10px 0.75em 0;
+	-webkit-transition: background border-color .25s;
+	-moz-transition: background border-color .25s;
+	-o-transition: background border-color .25s;
+	-ms-transition: background border-color .25s;
+	transition: background border-color .25s;
+}
+
+.layout_59 #portal_tabs .ui-state-default:hover {
+	background: #ccc;
+}
+
+.layout_59 #portal_tabs .ui-state-active, .layout_59 #portal_tabs .ui-state-active:hover {
+	background: #ccc;
+}
+
+.layout_59 #portal_tabs .ui-state-default > a {
+	color: #464646;
+	padding: 0 10px;
+	white-space: normal;
+	font-family: "franklin-gothic-urw", "Arial Narrow Bold", "Arial", serif;
+	font-size: 1.1667em;
+	line-height: 1.5em;
+	font-weight: 500;
+	text-transform: none;
+}
+
+.layout_59 #portal_tabs .ui-state-default > a:hover {
+	color: #333;
+}
+
+.layout_59 #portal_tabs .ui-state-active > a {
+	color: #333;
+}
+
+.layout_59 #portal_tabs .ui-state-active > a:hover {
+	color: #333;
+}
+
+.layout_59 #portal_tabs .ui-tabs-panel {
+	padding: 1.5em 0;
+}
+
+/* Portal Element: Personal Information System */
+.pcr-portal-access {
+	padding: 1.5em;
+	border: 1px solid #A6A6A6;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 4px 4px -2px #CCC;
+	box-shadow: 0 4px 4px -2px #CCC;
+	margin-top: -5px;
+}
+.pcr-portal-access img { 
+	float: left; 
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px solid #ebebeb;
+}
+.pcr-portal-access h4 {
+	margin-bottom: 0.5em;
+}
