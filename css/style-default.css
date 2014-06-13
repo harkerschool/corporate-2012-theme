@@ -1303,6 +1303,13 @@ margin-bottom: .4934em;
 	line-height: 1.9737em; /* 18 * 2 / 18.24 */
 }
 
+/* Directory Page */
+
+.pagetype_directory #contentdiv img { 
+	width: 100px;
+	height: auto;
+}
+
 /* News Page */
 
 #ptitle, .pagetype_news #contentdiv .newsposttitle {
